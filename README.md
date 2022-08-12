@@ -15,3 +15,10 @@ Three supervised learning models ([K-Nearest Neighbors (KNN)](knn.ipynb), [Suppo
 
 ![fig3](https://user-images.githubusercontent.com/110936252/184400741-f619029a-b752-483c-affe-ada6a642d0b0.png)
 ![fig4](https://user-images.githubusercontent.com/110936252/184400755-3dbd2cc9-e9b6-4c68-b911-0127fe30c362.png)
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/110936252/184403697-3bb739ac-2b95-4567-9f78-453b11c8dd95.png" alt="Figure 5" width="900"/>
+</p>
+
+## Future Work
+Random forest classifier can do a good job on lithological facies classification and prediction using the public dataset. However, its accuracy could be futher improved by using a deep learning method. Next, a CNN method will be considered to be applied and comparied with the above three learning models.
