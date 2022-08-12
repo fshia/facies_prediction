@@ -11,14 +11,16 @@ Three supervised learning models ([K-Nearest Neighbors (KNN)](knn.ipynb), [Suppo
 </p>
 
 ## Model Evaluation
-SEG also provided the interpreted facies for the validation dataset for accuracy comparison. Please note that the maximum facies indicator in training dataset is less than that in validation dataset, and the depth ranges are different as well. Those should be taken care of before comparison. The three machine learning predicting results are then [comparied](compare.ipynb) with the interpreted facies side by side for each well below.
+SEG also provided the interpreted facies for the validation dataset for accuracy comparison. Please note that the maximum facies indicator in training dataset is less than that in validation dataset, and the depth ranges are different as well. Those should be taken care of before comparison. The three machine learning predicting results are then [compared](compare.ipynb) with the interpreted facies side by side for each well below.
 
 ![fig3](https://user-images.githubusercontent.com/110936252/184400741-f619029a-b752-483c-affe-ada6a642d0b0.png)
 ![fig4](https://user-images.githubusercontent.com/110936252/184400755-3dbd2cc9-e9b6-4c68-b911-0127fe30c362.png)
+
+Compared with the prediction accuracy of three different machine learning methods, the prediction result using random forest is more promising than other two methods for lithological facies clasification.
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/110936252/184403697-3bb739ac-2b95-4567-9f78-453b11c8dd95.png" alt="Figure 5" width="900"/>
 </p>
 
 ## Future Work
-Random forest classifier can do a good job on lithological facies classification and prediction using the public dataset. However, its accuracy could be futher improved by using a deep learning method. Next, a CNN method will be considered to be applied and comparied with the above three learning models.
+Random forest classifier can do a good job on lithological facies classification and prediction using the public dataset. However, its accuracy could be futher improved by using a deep learning method. Next, a CNN method will be considered to be applied and compared with the above three learning models.
