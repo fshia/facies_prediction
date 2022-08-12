@@ -1,3 +1,6 @@
 # Comparison of various machine learning methods on lithological facies prediction for reservoir characterization
 
-[link](svm.ipynb)
+## Introduction
+Three machine learning methods are applied to evaluate the accuracy on lithological facies classification and prediction for reservoir characterization. The public well logging dataset provided by SEG are used in this project.
+
+I use [SVM](svm.ipynb)
